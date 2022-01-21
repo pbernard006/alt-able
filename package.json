@@ -1,0 +1,46 @@
+{
+  "name": "altable-api",
+  "version": "1.0.0",
+  "description": "Altable api",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugobarsacq/Alt-able.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugobarsacq/Alt-able/issues"
+  },
+  "homepage": "https://github.com/hugobarsacq/Alt-able#readme",
+  "dependencies": {
+    "@sentry/node": "^6.14.0",
+    "@sentry/tracing": "^6.14.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mocha": "^9.1.3",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
